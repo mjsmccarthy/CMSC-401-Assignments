@@ -198,7 +198,7 @@ public class MyGraph {
 
 		/* 
 		 * Test to see if the passed parameters are the same, in which case the number 
-		 * of hops is would be zero.
+		 * of hops would be zero.
 		 */
 		if (adjList.get(id1) == adjList.get(id2)) {
 			return distance[id1];
