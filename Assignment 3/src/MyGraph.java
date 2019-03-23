@@ -33,7 +33,7 @@ public class MyGraph {
 		MyGraph g = new MyGraph(bitmap.length);
 
 		// Create graph from bitmap
-		g.ititialize(bitmap);
+		g.initialize(bitmap);
 
 		// Helper function to print the adjacency list
 		g.printGraph(g);
@@ -114,7 +114,7 @@ public class MyGraph {
 	 * Constructs a graph based on an adjacency matrix. 
 	 * @param adjacencyMatrix - A adjacency matrix containing only 0's and 1's
 	 */
-	public void ititialize(int[][] adjacencyMatrix) {
+	public void initialize(int[][] adjacencyMatrix) {
 		for(int row = 0; row < adjacencyMatrix.length; row++) {
 			for (int col = 0; col < adjacencyMatrix[row].length; col++) {
 				if(adjacencyMatrix[row][col] == 1) {
